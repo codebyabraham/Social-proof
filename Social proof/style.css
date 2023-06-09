@@ -1,0 +1,163 @@
+h1{
+     color: rgb(77, 18, 77);
+     font-style: inherit;
+     font-family:'League Spartan';
+
+}
+h5{
+     color: purple;
+     font-family:'League Spartan';
+     
+}
+.content1, .content2, .content3{
+     background-color: rgb(77, 15, 77);
+     height: 200px;
+     width: 280px;
+     border-top-right-radius: 10px;
+     border-top-left-radius: 10px;
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+     bottom: 300px;
+     padding: 20px;
+}
+img{
+     border-radius: 50%;
+     size: 600px;
+}
+.Name1{
+     position: relative;
+     left: 60px;
+     bottom: 60px;
+     font-size: 14px;
+     font-family:'League Spartan';
+}
+.Name2{
+     position: relative;
+     left: 60px;
+     bottom: 60px;
+     font-size: 14px;
+     font-family:'League Spartan';
+}
+.Name3{
+     position: relative;
+     left: 60px;
+     bottom: 60px;
+     font-size: 14px;
+     font-family:'League Spartan';
+}
+.V1{
+     position: relative;
+     left: 65px;
+     bottom: 69px;
+     color: rgb(182, 89, 105);
+     font-family:'League Spartan';
+     font-size: 12px;
+}
+.V2{
+     position: relative;
+     left: 65px;
+     bottom: 69px;
+     color: rgb(182, 89, 105);
+     font-family:'League Spartan';
+     font-size: 12px;
+     
+}
+.V3{
+     position: relative;
+     left: 65px;
+     bottom: 69px;
+     color: rgb(182, 89, 105);
+     font-family:'League Spartan';
+     font-size: 12px; 
+}
+.Text1{
+     font-size:130%;
+     position: relative;
+     bottom: 30px;
+     font-family:'League Spartan';
+}
+.Text2{
+     font-size:130%;
+     position: relative;
+     bottom: 30px;
+     font-family:'League Spartan';
+}
+.Text3{
+     font-size:130%;
+     position: relative;
+     bottom: 30px;
+     font-family:'League Spartan';
+}
+.R1{
+     font-family:'League Spartan';
+     background-color: rgb(248, 238, 240);
+     border-radius: 5px;
+     padding: 1rem;
+     margin: 20px;
+     margin-right: 80px;
+}
+.R2{
+     font-family:'League Spartan';
+     background-color: rgb(248, 238, 240);
+     border-radius: 5px;
+     padding: 1rem;
+     margin: 20px;
+     margin-left: 50px;
+     margin-right: 40px;
+}
+.R3{
+     font-family:'League Spartan';
+     background-color: rgb(248, 238, 240);
+     border-radius: 5px;
+     padding: 1rem;
+     margin: 20px;
+     margin-left: 100px;
+}
+.Image{
+     height: 50px;
+     width: 50px;
+}
+.top{
+     width: 80%;
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-around;
+     background-image: url(./src/bg-pattern-top-desktop.svg);
+}
+.top1{
+     width: 50%;
+
+}
+.top2{
+     width: 50%;
+}
+
+.Main-content{
+     width: 80%;
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-evenly;
+     background-image: url(./src/bg-pattern-bottom-desktop.svg);
+}
+.content2{
+     margin-top: 20px;
+}
+
+.content3{
+     margin-top: 40px;
+}
+@media screen and (max-width: 700px){
+     .Main-content{
+          display: flex;
+          flex-direction: column;
+
+     }
+     .top{
+          display: flex;
+          flex-direction: column;
+     }
+     .R1, .R2, .R3{
+          width: 150%;
+     }
+     
+}
